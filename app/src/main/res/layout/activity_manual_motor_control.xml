@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/controlLayoutPaddingTop"
+        android:paddingLeft="@dimen/controlLayoutPaddingLeft"
+        android:paddingRight="@dimen/controlLayoutPaddingRight">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/titleMargin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize = "@dimen/titleTextSize"
+                android:text="@string/titlePortX"
+                android:layout_marginRight="@dimen/titleMargin"/>
+
+            <ToggleButton
+                android:id="@+id/portXEnable"
+                android:layout_width="107dp"
+                android:layout_height="wrap_content"
+                android:checked="true"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/portXFields"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/titleMargin"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize = "@dimen/labelTextSize"
+                    android:text="@string/labelSleep"
+                    android:layout_marginRight="@dimen/titleMargin"/>
+
+                <ToggleButton
+                    android:id="@+id/portXSleep"
+                    android:layout_width="107dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize = "@dimen/labelTextSize"
+                    android:text="@string/labelMode"
+                    android:layout_marginRight="@dimen/titleMargin"/>
+
+                <Spinner
+                    android:id="@+id/portXMode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/motorModes"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize = "@dimen/labelTextSize"
+                    android:text="@string/labelDelay"
+                    android:layout_marginRight="@dimen/titleMargin"/>
+
+                <EditText
+                    android:id="@+id/portXDelay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1"
+                    android:minWidth="107dp"
+                    android:inputType="numberDecimal"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize = "@dimen/labelTextSize"
+                    android:text="@string/labelStep"
+                    android:layout_marginRight="@dimen/titleMargin"
+                    android:layout_weight="0"/>
+
+                <EditText
+                    android:id="@+id/portXSteps"
+                    android:layout_width="wrap_content"
+                    android:minWidth="100dp"
+                    android:inputType ="numberSigned"
+                    android:text="0"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/titleMargin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize = "@dimen/titleTextSize"
+                android:text="@string/titlePortY"
+                android:layout_marginRight="@dimen/titleMargin"/>
+
+            <ToggleButton
+                android:id="@+id/portYEnable"
+                android:layout_width="107dp"
+                android:layout_height="wrap_content"
+                android:checked="true"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/portYFields"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/titleMargin"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize = "@dimen/labelTextSize"
+                    android:text="@string/labelSleep"
+                    android:layout_marginRight="@dimen/titleMargin"/>
+
+                <ToggleButton
+                    android:id="@+id/portYSleep"
+                    android:layout_width="107dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize = "@dimen/labelTextSize"
+                    android:text="@string/labelMode"
+                    android:layout_marginRight="@dimen/titleMargin"/>
+
+                <Spinner
+                    android:id="@+id/portYMode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/motorModes"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize = "@dimen/labelTextSize"
+                    android:text="@string/labelDelay"
+                    android:layout_marginRight="@dimen/titleMargin"/>
+
+                <EditText
+                    android:id="@+id/portYDelay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1"
+                    android:minWidth="107dp"
+                    android:inputType="numberDecimal"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize = "@dimen/labelTextSize"
+                    android:text="@string/labelStep"
+                    android:layout_marginRight="@dimen/titleMargin"
+                    android:layout_weight="0"/>
+
+                <EditText
+                    android:id="@+id/portYSteps"
+                    android:layout_width="wrap_content"
+                    android:minWidth="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:selectAllOnFocus="false"
+                    android:text="0"
+                    android:inputType ="numberSigned"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/motorControlButton"
+            android:background="@drawable/button_learn"
+            style="@style/ButtonStyle"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="@string/motorControlButton"/>
+
+    </LinearLayout>
+</ScrollView>

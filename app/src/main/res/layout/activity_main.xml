@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.neblar.screwd.MainActivity">
+
+    <ImageView
+        android:id="@+id/buttonBluetooth"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/bluetoothMargin"
+        android:scaleType="fitCenter"
+        android:src="@drawable/bluetooth"/>
+
+    <ImageView
+        android:id="@+id/buttonMotorControl"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/bluetoothMargin"
+        android:scaleType="fitCenter"
+        android:alpha="0.35"
+        android:src="@drawable/gear"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/mainLayoutPaddingTop"
+        android:layout_marginBottom="@dimen/mainLayoutPaddingBottom"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="@dimen/mainLayoutPaddingBottom"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="@dimen/logoImageSize"
+                android:layout_height="@dimen/logoImageSize"
+                android:src="@drawable/logo"/>
+            <TextView
+                android:id="@+id/logoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textSize="@dimen/logoText"
+                android:textColor="@color/cornerStoneColor"/>
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/statusTextSize"
+            android:paddingTop="@dimen/statusTextPaddingTop"
+            android:paddingLeft="@dimen/statusTextPaddingLeft"
+            android:paddingRight="@dimen/statusTextPaddingRight"
+            android:paddingBottom="@dimen/statusTextPaddingBottom"
+            android:gravity="center_vertical"/>
+
+
+        <Button
+            android:id="@+id/buttonStart"
+            android:background="@drawable/button_start"
+            style="@style/ButtonStyle"
+            android:text="@string/buttonStart"/>
+        <Button
+            android:id="@+id/buttonStop"
+            android:background="@drawable/button_stop"
+            style="@style/ButtonStyle"
+            android:text="@string/buttonStop"/>
+        <Button
+            android:id="@+id/buttonLearn"
+            android:background="@drawable/button_learn"
+            style="@style/ButtonStyle"
+            android:text="@string/buttonLearn"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

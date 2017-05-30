@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="lightGrey">#eeeeee</color>
+
+    <color name="cornerStoneColor">#9e9e9e</color>
+
+    <color name="buttonStartDefault">#BCBEC0</color>
+    <color name="buttonStartActive">#A7A9AC</color>
+
+    <color name="buttonStopDefault">#939598</color>
+    <color name="buttonStopActive">#808285</color>
+
+    <color name="buttonLearnDefault">#58595B</color>
+    <color name="buttonLearnActive">#414042</color>
+</resources>

@@ -1,0 +1,48 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="cornerStoneSide">30dp</dimen>
+
+    <dimen name="bluetoothMargin">20dp</dimen>
+
+    <dimen name="buttonHeight">60dp</dimen>
+    <dimen name="buttonMarginBottom">0dp</dimen>
+    <dimen name="buttonMarginTop">0dp</dimen>
+    <dimen name="buttonPaddingBottom">20dp</dimen>
+    <dimen name="buttonPaddingLeft">50dp</dimen>
+    <dimen name="buttonPaddingTop">30dp</dimen>
+    <dimen name="buttonScrewsPaddingLeft">10dp</dimen>
+    <dimen name="buttonScrewsPaddingRight">10dp</dimen>
+    <dimen name="buttonScrewsPaddingTop">10dp</dimen>
+    <dimen name="buttonScrewSize">40dp</dimen>
+    <dimen name="buttonTextSize">20sp</dimen>
+
+    <dimen name="controlLayoutPaddingLeft">50dp</dimen>
+    <dimen name="controlLayoutPaddingRight">50dp</dimen>
+    <dimen name="controlLayoutPaddingTop">50dp</dimen>
+
+    <dimen name="labelTextSize">20sp</dimen>
+
+    <dimen name="logoImageSize">120dp</dimen>
+    <dimen name="logoText">40sp</dimen>
+
+
+    <dimen name="mainLayoutPaddingBottom">0dp</dimen>
+    <dimen name="mainLayoutPaddingLeft">50dp</dimen>
+    <dimen name="mainLayoutPaddingRight">50dp</dimen>
+    <dimen name="mainLayoutPaddingTop">50dp</dimen>
+
+
+    <dimen name="statusMarginBottom">50dp</dimen>
+    <dimen name="statusTextPaddingBottom">20dp</dimen>
+    <dimen name="statusTextPaddingLeft">50dp</dimen>
+    <dimen name="statusTextPaddingRight">50dp</dimen>
+    <dimen name="statusTextPaddingTop">50dp</dimen>
+    <dimen name="statusTextSize">30sp</dimen>
+
+    <dimen name="titleMargin">20dp</dimen>
+    <dimen name="titleTextSize">30sp</dimen>
+
+
+</resources>

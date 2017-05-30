@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">ScrewD</string>
+    <string name="buttonLearn">LEARN</string>
+    <string name="buttonStart">START</string>
+    <string name="buttonStop">STOP</string>
+    <string name="status">Status :</string>
+
+
+    <string name="labelDelay">Delay (multiplier)</string>
+    <string name="labelMode">Mode</string>
+    <string name="labelSleep">Sleep</string>
+    <string name="labelStep">Step (+/-)</string>
+
+    <string name="motorControlButton">Send Command</string>
+
+    <string name="statusBluetoothConnected">ScrewDriver connected.</string>
+    <string name="statusBluetoothConnecting">Connecting ScrewDriver&#8230;</string>
+    <string name="statusBluetoothConnectionFailed">Connection failed.</string>
+    <string name="statusBluetoothDeviceNotPaired">ScrewDriver not paired.</string>
+    <string name="statusBluetoothDisconnected">ScrewDriver disconnected.</string>
+    <string name="statusBluetoothDisconnecting">Disconnecting ScrewDriver&#8230;</string>
+    <string name="statusBluetoothFound">ScrewDriver found.</string>
+    <string name="statusBluetoothSwitchedOff">Bluetooth is switched off.</string>
+    <string name="statusBluetoothUnavailable">No bluetooth on device.</string>
+    <string name="statusDefault">ScrewDriver is idle.</string>
+    <string name="statusStart">Starting ScrewDriver.</string>
+    <string name="statusStartLearning">Starting to learn.</string>
+    <string name="statusStop">Stopping ScrewDriver.</string>
+
+    <string name="titlePortX">Port X</string>
+    <string name="titlePortY">Port Y</string>
+
+
+    <string-array name="motorModes">
+        <item>Full Step</item>
+        <item>Half Step</item>
+        <item>Quarter Step</item>
+        <item>Eight Step</item>
+    </string-array>
+</resources>
