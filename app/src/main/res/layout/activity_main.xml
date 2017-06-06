@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.neblar.screwd.MainActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <ImageView
         android:id="@+id/buttonBluetooth"
@@ -72,6 +76,16 @@
 
 
         <Button
+            android:id="@+id/buttonLoosen"
+            android:background="@drawable/button_start"
+            style="@style/ButtonStyle"
+            android:text="@string/buttonLoosen"/>
+        <Button
+            android:id="@+id/buttonTighten"
+            android:background="@drawable/button_stop"
+            style="@style/ButtonStyle"
+            android:text="@string/buttonTighten"/>
+        <Button
             android:id="@+id/buttonStart"
             android:background="@drawable/button_start"
             style="@style/ButtonStyle"
@@ -91,3 +105,4 @@
     </LinearLayout>
 
 </RelativeLayout>
+</ScrollView>

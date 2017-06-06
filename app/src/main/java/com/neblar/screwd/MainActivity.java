@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
         Button start            = (Button) findViewById(R.id.buttonStart);
         Button stop             = (Button) findViewById(R.id.buttonStop);
         Button learn            = (Button) findViewById(R.id.buttonLearn);
+        Button loosen             = (Button) findViewById(R.id.buttonLoosen);
+        Button tighten           = (Button) findViewById(R.id.buttonTighten);
         ImageView bluetooth     = (ImageView) findViewById(R.id.buttonBluetooth);
         ImageView motorControl  = (ImageView) findViewById(R.id.buttonMotorControl);
         TextView status         = (TextView) findViewById(R.id.status);
@@ -61,6 +63,20 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 ArduinoCommander.learn();
+            }
+        });
+
+        loosen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ArduinoCommander.loosen();
+            }
+        });
+
+        tighten.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ArduinoCommander.tighten();
             }
         });
 

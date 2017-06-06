@@ -15,10 +15,26 @@ class ArduinoCommander {
         if(!BluetoothController.isConnected()){
             return;
         }
-        BluetoothController.sendCommand("Bye");
+        BluetoothController.sendCommand("Feedback");
 
         Logger.setStatus(MainActivity.activity.getString(R.string.statusStartLearning));
         UI.rotateLearn();
+
+    }
+
+
+    /**
+     * loosen
+     * This function tells the screwdriver to loose the screw by one pitch
+     */
+    static void loosen(){
+
+        if(!BluetoothController.isConnected()){
+            return;
+        }
+        BluetoothController.sendCommand("Loosen");
+
+        Logger.setStatus(MainActivity.activity.getString(R.string.statusLoosening));
 
     }
 
@@ -32,7 +48,7 @@ class ArduinoCommander {
             return;
         }
 
-        BluetoothController.sendCommand("Hello");
+        BluetoothController.sendCommand("Start");
 
         Logger.setStatus(MainActivity.activity.getString(R.string.statusStart));
         UI.rotateStart();
@@ -48,11 +64,27 @@ class ArduinoCommander {
             return;
         }
 
-        BluetoothController.sendCommand("getData");
+        BluetoothController.sendCommand("Quit");
         BluetoothController.readCommand();
 
         Logger.setStatus(MainActivity.activity.getString(R.string.statusStop));
         UI.rotateStop();
+
+    }
+
+
+    /**
+     * tighten
+     * This function tells the screwdriver to tighten the screw by one pitch
+     */
+    static void tighten(){
+
+        if(!BluetoothController.isConnected()){
+            return;
+        }
+        BluetoothController.sendCommand("Tighten");
+
+        Logger.setStatus(MainActivity.activity.getString(R.string.statusTightening));
 
     }
 

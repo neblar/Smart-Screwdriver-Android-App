@@ -3,6 +3,8 @@
     <string name="buttonLearn">LEARN</string>
     <string name="buttonStart">START</string>
     <string name="buttonStop">STOP</string>
+    <string name="buttonLoosen">LOOSEN</string>
+    <string name="buttonTighten">TIGHTEN</string>
     <string name="status">Status :</string>
 
 
@@ -23,9 +25,11 @@
     <string name="statusBluetoothSwitchedOff">Bluetooth is switched off.</string>
     <string name="statusBluetoothUnavailable">No bluetooth on device.</string>
     <string name="statusDefault">ScrewDriver is idle.</string>
+    <string name="statusLoosening">Loosening Screw.</string>
     <string name="statusStart">Starting ScrewDriver.</string>
     <string name="statusStartLearning">Starting to learn.</string>
     <string name="statusStop">Stopping ScrewDriver.</string>
+    <string name="statusTightening">Tightening Screw.</string>
 
     <string name="titlePortX">Port X</string>
     <string name="titlePortY">Port Y</string>
